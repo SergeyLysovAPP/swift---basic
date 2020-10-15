@@ -1,2 +1,2 @@
-# swift---basic
+# swift_basic
 Репозиторий для курса "Основы языка Swift"
