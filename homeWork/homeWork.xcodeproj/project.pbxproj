@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		020D647826E765CC004611A1 /* HW SwiftBasic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW SwiftBasic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020D647826E765CC004611A1 /* homeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		020D647B26E765CC004611A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		020D646F26E765CC004611A1 = {
 			isa = PBXGroup;
 			children = (
-				020D647A26E765CC004611A1 /* 1 | Lesson */,
+				020D647A26E765CC004611A1 /* Sources */,
 				020D647926E765CC004611A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		020D647926E765CC004611A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				020D647826E765CC004611A1 /* HW SwiftBasic */,
+				020D647826E765CC004611A1 /* homeWork */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		020D647A26E765CC004611A1 /* 1 | Lesson */ = {
+		020D647A26E765CC004611A1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				020D647B26E765CC004611A1 /* main.swift */,
 			);
-			path = "1 | Lesson";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		020D647726E765CC004611A1 /* HW SwiftBasic */ = {
+		020D647726E765CC004611A1 /* homeWork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 020D647F26E765CC004611A1 /* Build configuration list for PBXNativeTarget "HW SwiftBasic" */;
+			buildConfigurationList = 020D647F26E765CC004611A1 /* Build configuration list for PBXNativeTarget "homeWork" */;
 			buildPhases = (
 				020D647426E765CC004611A1 /* Sources */,
 				020D647526E765CC004611A1 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "HW SwiftBasic";
+			name = homeWork;
 			productName = "HW SwiftBasic";
-			productReference = 020D647826E765CC004611A1 /* HW SwiftBasic */;
+			productReference = 020D647826E765CC004611A1 /* homeWork */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 020D647326E765CC004611A1 /* Build configuration list for PBXProject "HW SwiftBasic" */;
+			buildConfigurationList = 020D647326E765CC004611A1 /* Build configuration list for PBXProject "homeWork" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				020D647726E765CC004611A1 /* HW SwiftBasic */,
+				020D647726E765CC004611A1 /* homeWork */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		020D647326E765CC004611A1 /* Build configuration list for PBXProject "HW SwiftBasic" */ = {
+		020D647326E765CC004611A1 /* Build configuration list for PBXProject "homeWork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				020D647D26E765CC004611A1 /* Debug */,
@@ -271,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		020D647F26E765CC004611A1 /* Build configuration list for PBXNativeTarget "HW SwiftBasic" */ = {
+		020D647F26E765CC004611A1 /* Build configuration list for PBXNativeTarget "homeWork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				020D648026E765CC004611A1 /* Debug */,
