@@ -7,49 +7,47 @@
 
 import Foundation
 
-let randomUInt = UInt.random(in: 1...100)
-print("Число для проверки: \(randomUInt) \n")
+let randomInt = Int.random(in: 1...100)
+print("Число для проверки: \(randomInt) \n")
 
 
 
 //MARK: Задание 1
 //Написать функцию, которая определяет, четное число или нет.
 
-func isEven(numForCheck: UInt) -> Bool {
+func isEven(numForCheck: Int) -> Bool {
     
-    if numForCheck % 2 == 0 {
-        return true
-    }
+    var result: Bool
+    numForCheck % 2 == 0 ? (result = true) : (result = false)
     
-    return false
+    return result
 }
 
-print("Число \(randomUInt) - \(isEven(numForCheck: randomUInt) ? "чётное" : "нечётное")")
+print("Число \(randomInt) - \(isEven(numForCheck: randomInt) ? "чётное" : "нечётное")")
 
 
 
 //MARK: Задание 2
 //Написать функцию, которая определяет, делится ли число без остатка на 3.
 
-func isDivBy3(numForCheck: UInt) -> Bool {
+func isDivBy3(numForCheck: Int) -> Bool {
     
-    if numForCheck % 3 == 0 {
-        return true
-    }
+    var result: Bool
+    numForCheck % 3 == 0 ? (result = true) : (result = false)
     
-    return false
+    return result
 }
 
-print("Число \(randomUInt) - \(isDivBy3(numForCheck: randomUInt) ? "делится на 3" : "не делится на 3") \n")
+print("Число \(randomInt) - \(isDivBy3(numForCheck: randomInt) ? "делится на 3" : "не делится на 3") \n")
 
 
 
 //MARK: Задание 3
 //Создать возрастающий массив из 100 чисел.
 
-func incArray(amount: UInt, startValue: UInt) -> [UInt] {
+func incArray(amount: Int, startValue: Int) -> [Int] {
     
-    var resultArray: [UInt] = []
+    var resultArray: [Int] = []
     
     for i in startValue ..< startValue + amount {
         resultArray.append(i)
@@ -58,11 +56,11 @@ func incArray(amount: UInt, startValue: UInt) -> [UInt] {
     return resultArray
 }
 
-var unsortedArray = incArray(amount: 5, startValue: randomUInt)
+var unsortedArray = incArray(amount: 5, startValue: randomInt)
 
 print("""
     Сгенерирован массив из \(unsortedArray.count) элементов
-    Начальное значение: \(randomUInt)
+    Начальное значение: \(randomInt)
     Значения в массиве: \(unsortedArray) \n
     """)
 
