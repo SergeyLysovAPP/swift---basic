@@ -38,10 +38,7 @@ struct SpotCar {
     let fuelMaxVolume: UInt
     
     var powerReserve: UInt {
-        
-        get {
             return fuelСonsumption * fuelMaxVolume
-        }
     }
     
     var windowsStatus: WindowsStatus {
@@ -61,14 +58,14 @@ struct SpotCar {
     
     mutating func startEngine() {
         
-        self.engineStatus = .online
+        engineStatus = .online
         print("Двигатель \(engineStatus.rawValue)")
         
     }
     
     mutating func stopEngine() {
         
-        self.engineStatus = .offline
+        engineStatus = .offline
         print("Двигатель \(engineStatus.rawValue)")
         
     }
@@ -140,10 +137,7 @@ struct TrunkCar {
     let fuelMaxVolume: UInt
     
     var powerReserve: UInt {
-        
-        get {
             return fuelСonsumption * fuelMaxVolume
-        }
     }
     
     var windowsStatus: WindowsStatus {
@@ -161,14 +155,14 @@ struct TrunkCar {
     
     mutating func startEngine() {
         
-        self.engineStatus = .online
+        engineStatus = .online
         print("Двигатель \(engineStatus.rawValue)")
         
     }
     
     mutating func stopEngine() {
         
-        self.engineStatus = .offline
+        engineStatus = .offline
         print("Двигатель \(engineStatus.rawValue)")
         
     }
