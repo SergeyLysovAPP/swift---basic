@@ -22,7 +22,7 @@ enum EngineStatus: String {
     case offline = "остановлен"
 }
 
-enum WindowsStatus: String{
+enum WindowsStatus: String {
     case open = "открыты"
     case closed = "закрыты"
 }
