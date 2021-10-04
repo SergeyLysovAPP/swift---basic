@@ -76,7 +76,7 @@ class BankAccount {
         if totalMoney - amountCash < 0 {
             throw BankAccountError.insufficientFunds
             
-        } else{
+        } else {
             
             totalMoney -= amountCash
             print("Со счёта снято \(amountCash) рублей")
