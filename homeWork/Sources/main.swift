@@ -15,7 +15,7 @@ import Foundation
 
 //MARK: Класс и Guard/let
 
-class DenisVilleneuve {
+final class DenisVilleneuve {
     
     private var ratingList = [
         "Дюна" : 7.99,
@@ -32,9 +32,7 @@ class DenisVilleneuve {
     
     func averageRating() -> Double? {
         
-        guard ratingList.count > 1 else {
-            return nil
-        }
+        guard ratingList.count > 1 else { return nil }
         
         var totalRating = 0.0
         let ratingArray = Array(ratingList.values)
